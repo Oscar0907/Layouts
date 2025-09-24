@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Layouts.StackLayout.MainPage"
+             BackgroundColor="PapayaWhip">
+
+    <StackLayout
+        BackgroundColor="Gray"
+        Orientation="Vertical"
+        Spacing="15"
+        Margin="16,20,12,10"
+        Padding="14">
+        <Label
+            Text="Hola a todos bienvenidos los papus"
+            HorizontalOptions="Center"
+            BackgroundColor="Black"/>
+        <Button
+            Text="Click me papu"
+            BackgroundColor="White"
+            HorizontalOptions="Center"/>
+        <Button
+            Text="Uno"
+            BackgroundColor="WhiteSmoke"
+            HorizontalOptions="Center"/>
+        <Button
+            Text="Dos"
+            BackgroundColor="White"
+            HorizontalOptions="Center"/>
+        <Button
+            Text="Tres"
+            BackgroundColor="WhiteSmoke"
+            HorizontalOptions="Center"/>
+        <Button
+            Text="Cuatro"
+            BackgroundColor="White"
+            HorizontalOptions="Center"/>
+        <Button
+            Text="PAPUS"
+            BackgroundColor="WhiteSmoke"
+            HorizontalOptions="Center"/>
+    </StackLayout>
+    
+</ContentPage>
